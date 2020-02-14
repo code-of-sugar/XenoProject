@@ -1,6 +1,5 @@
 package xeno;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -29,8 +28,6 @@ public class Main {
 				}
 			} catch (IllegalArgumentException e) {
 				System.out.println("記載されている数字のみ入力が可能です。入力し直してください。");
-			} catch (InputMismatchException ee) {
-				System.out.println("入力が正しくありません。数字を入力してください。");
 			}
 		}
 		scanner.close();
